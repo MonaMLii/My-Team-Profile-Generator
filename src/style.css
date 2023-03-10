@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #e74c3c;
+    animation: bg-color 10s infinite;
+}
+
+@keyframes bg-color {
+    0% {
+        background-color: #d1a29d;
+    }
+
+    20% {
+        background-color: #dcd2a9;
+    }
+
+    40% {
+        background-color: #b4e0d6;
+    }
+
+    60% {
+        background-color: #a4c1d4;
+    }
+
+    80% {
+        background-color: #bca6c4;
+    }
+
+    100% {
+        background-color: #bb9995;
+    }
+}
+
+p {
+    font-family: Meiryo, "Hiragino Kaku Gothic Pro W3", sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    background-color: #f3b2ea;
+    opacity: 50%;
+    color: #000000;
+}
+
+#employee-container {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    font-size: 15px;
+    padding: 10%;
+   
+}
+
+/* .card {
+    
+} */
+
+.card-title {
+    background-color: #aa6464;
+    text-align: center;
+    color: #000000;
+    font-size: 35px;
+}
+
+li {
+    list-style: none;
+}
