@@ -7,6 +7,8 @@ const Intern = require('./lib/Intern');
 const team = [];
 
 
+// create HTML to generate
+
 const generateHTML = () =>{
 
 return `<!DOCTYPE html>
@@ -30,16 +32,8 @@ return `<!DOCTYPE html>
 </html>`;
 }
 
-// const getManagerHTML = () =>{
-//     const managerHTML = ``
-//     team.forEach((employee) => {
-//         if(employee.getRole() === "Manager"){
-//             managerHTML += employee.getHTML()
-//         }
-//     })
 
-//     return managerHTML
-// }
+// Promt questions and add to new employee
 
 const addManager = () => {
 inquirer
@@ -134,6 +128,8 @@ const addIntern = () => {
         addNewEmployee();
       });
   }
+
+  // add new employee function
 
   const addNewEmployee = () => {
     inquirer 

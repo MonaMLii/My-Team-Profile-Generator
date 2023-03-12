@@ -1,37 +1,11 @@
+/* styling for index.html */
+
 * {
     box-sizing: border-box;
-
 }
 
 body {
-    background-color: #e74c3c;
-    animation: bg-color 10s infinite;
-}
-
-@keyframes bg-color {
-    0% {
-        background-color: #d1a29d;
-    }
-
-    20% {
-        background-color: #dcd2a9;
-    }
-
-    40% {
-        background-color: #b4e0d6;
-    }
-
-    60% {
-        background-color: #a4c1d4;
-    }
-
-    80% {
-        background-color: #bca6c4;
-    }
-
-    100% {
-        background-color: #bb9995;
-    }
+    background-color: #7690ad;
 }
 
 p {
@@ -47,7 +21,7 @@ header {
     padding: 1%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 45px;
-    background-color: #f3b2ea;
+    background-color: #5a7a9e;
     opacity: 50%;
     color: #000000;
 }
@@ -60,18 +34,24 @@ header {
     color: #000000;
     font-size: 15px;
     padding: 10%;
+    padding-top: 5%;
    
 }
 
-/* .card {
-    
-} */
+.card-body {
+    padding: 10%;
+    margin: 5%;
+}
+
+.card {
+    margin: 15px;
+}
 
 .card-title {
-    background-color: #aa6464;
+    background-color: #75a8e2;
     text-align: center;
     color: #000000;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 li {
